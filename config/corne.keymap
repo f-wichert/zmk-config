@@ -19,8 +19,8 @@
         conditional_layers {
                 compatible = "zmk,conditional-layers";
                 tri_layer {
-                if-layers = <1 2>;
-                then-layer = <3>;
+                if-layers = <2 3>;
+                then-layer = <4>;
                 };
         };
         behaviors {
@@ -39,7 +39,7 @@
 
 
         // =====================
-        //        DEFAULT
+        //       0 DEFAULT
         // =====================
                 default_layer {
                         bindings = <
@@ -57,7 +57,7 @@
                 };
 
         // =====================
-        //        GAMING
+        //      1 GAMING
         // =====================
                 gaming_layer {
                         bindings = <
@@ -75,7 +75,7 @@
                 };
 
         // =====================
-        //        LOWER
+        //       2 LOWER
         // =====================
                 lower_layer {
                         bindings = <
@@ -93,7 +93,7 @@
 
                 
         // =====================
-        //        RAISE
+        //       3 RAISE
         // =====================
                 raise_layer {
                         bindings = <
@@ -111,7 +111,7 @@
 
 
         // =====================
-        //        ADJUST
+        //       4 ADJUST
         // =====================
                 adjust_layer {
                         bindings = <
